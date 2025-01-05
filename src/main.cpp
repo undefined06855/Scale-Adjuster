@@ -30,8 +30,8 @@ class $modify(HookedCCEGLViewProtocol, cocos2d::CCEGLViewProtocol) {
         m_obDesignResolutionSize.setSize(width, height);
         
         if (geode::Mod::get()->getSettingValue<bool>("enabled")) {
-            m_fScaleX = geode::Mod::get()->getSettingValue<float>("scaleX");
-            m_fScaleY = geode::Mod::get()->getSettingValue<float>("scaleY");
+            m_fScaleX = geode::Mod::get()->getSettingValue<double>("scaleX");
+            m_fScaleY = geode::Mod::get()->getSettingValue<double>("scaleY");
         } else {
             m_fScaleX = (float)m_obScreenSize.width / m_obDesignResolutionSize.width;
             m_fScaleY = (float)m_obScreenSize.height / m_obDesignResolutionSize.height;
