@@ -1,0 +1,38 @@
+{
+	"geode": "4.1.2",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074"
+	},
+
+	"id": "undefined0.scale_adjuster",
+	"name": "Scale Adjuster",
+	"version": "v1.0.0",
+	"developer": "undefined0",
+	"description": "",
+	"early-load": true,
+
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"default": true,
+			"name": "Enabled"
+		},
+		"scaleX": {
+			"type": "float",
+			"default": 1,
+			"name": "Scale X"
+		},
+		"scaleY": {
+			"type": "float",
+			"default": 1,
+			"name": "Scale Y"
+		},
+		"disable-resolution-policy": {
+			"type": "bool",
+			"default": false,
+			"name": "Disable Resolution Policy"
+		}
+	}
+}
